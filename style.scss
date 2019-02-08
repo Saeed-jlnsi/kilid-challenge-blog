@@ -1,22 +1,84 @@
+/*============ VARIABLES =========*/
+
+$main-color: #9b1c51;
+
+/*============ FONTS =========*/
+
 @font-face {
     font-family: "IRANSans";
     src: url();
-    
 }
+
+/*============ STYLES =========*/
+
 html {
     direction: rtl;
     width: 100%;
     height: 100%;
     body {
         direction: rtl;
-        max-width: 1500px;
-        min-height: 100%;
+        height: 100%;
         font-family: "IRANSans", sans-serif;
+        color: #444;
         h1,h2,h3,h4,h5,h6,p {
             line-height: 1.5;
             letter-spacing: normal;
             word-spacing: normal;
         }
-        
+        button, a, ul, li {
+            text-decoration: none;
+            list-style: none;
+            outline: none;
+        }
+        header {
+            width: 100%;
+            height: 65px;
+            background-color: bisque;
+            .header-inner {
+                width: 95%;
+                height: 100%;
+                display: flex;
+                justify-content: space-between;
+                margin: 0 auto;
+                background-color: aquamarine;
+                .main-nav {
+                    width: 60%;
+                    display: flex;
+                    .site-logo {
+                        display: flex;
+                        align-items: center;
+                        img {
+                            width: 150px;
+                        }
+                    }
+                    nav {
+                        width: 100%;
+                        display: flex;
+                        align-items: center;
+                        ul {
+                            width: 100%;
+                            display: flex;
+                            justify-content: space-around;
+                            li {
+    
+                            }
+                        }
+                    }
+                }
+                .user-panel {
+                    width: 20%;
+                    display: flex;
+                    justify-content: space-around;
+                    align-items: center;
+                    .btn {
+                        padding: 5px 15px;
+                        border: 2px solid;
+                        line-height: 1.5;
+                        font-size: 16px;
+                    }
+                }
+            }
+        }
+
     }
 }
