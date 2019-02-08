@@ -22,6 +22,7 @@ html {
         height: 100%;
         font-family: "IRANSans", sans-serif;
         color: $text-color;
+        overflow-x: hidden;
 
         h1,h2,h3,h4,h5,h6,p {
             line-height: 1.5;
@@ -78,8 +79,12 @@ html {
                                     display: flex;
                                     justify-content: space-around;
         
-                                    li {
-        
+                                    li > a {
+                                        padding-bottom: 4px;
+
+                                        &:hover {
+                                            border-bottom: 2px solid #444;
+                                        }
                                     }
                                 }
                             }

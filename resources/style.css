@@ -15,6 +15,7 @@ html body {
   height: 100%;
   font-family: "IRANSans", sans-serif;
   color: #444;
+  overflow-x: hidden;
 }
 html body h1, html body h2, html body h3, html body h4, html body h5, html body h6, html body p {
   line-height: 1.5;
@@ -70,6 +71,12 @@ html body header .header-wrap .header .header-inner .main-nav nav ul {
   width: 100%;
   display: flex;
   justify-content: space-around;
+}
+html body header .header-wrap .header .header-inner .main-nav nav ul li > a {
+  padding-bottom: 4px;
+}
+html body header .header-wrap .header .header-inner .main-nav nav ul li > a:hover {
+  border-bottom: 2px solid #444;
 }
 html body header .header-wrap .header .header-inner .user-panel {
   width: 17%;
