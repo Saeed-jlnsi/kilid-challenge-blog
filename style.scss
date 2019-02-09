@@ -29,6 +29,12 @@ html {
             letter-spacing: normal;
             word-spacing: normal;
         }
+        h1 {
+            font-size: 3em;
+        }
+        h2 {
+            font-size: 2em;
+        }
         a, ul > li {
             text-decoration: none;
             list-style: none;
@@ -120,6 +126,14 @@ html {
                             }
                         }
                     }
+                }
+                .hero-section {
+                    color: #fff;
+                    height: 76vh;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
                 }
             }
         }
