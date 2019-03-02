@@ -83,7 +83,7 @@ html body header .header-wrap .header .header-inner .main-nav nav ul li > a {
   padding-bottom: 4px;
 }
 html body header .header-wrap .header .header-inner .main-nav nav ul li > a:hover {
-  border-bottom: 2px solid #444;
+  border-bottom: 1.2px solid #444;
 }
 html body header .header-wrap .header .header-inner .user-panel {
   width: 17%;
